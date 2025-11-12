@@ -11,6 +11,21 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
+
+find_package(rclcpp REQUIRED)
+find_package(pose_stamped REQUIRED)
+
+add_executable(publisher src/publisher.cpp)
+
+ament_target_dependencies(publisher rclcpp pose_stamped)
+
+
+install(TARGETS
+  publisher
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
