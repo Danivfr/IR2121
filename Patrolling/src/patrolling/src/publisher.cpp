@@ -17,8 +17,8 @@ int main(int argc, char * argv[])
 
     message.header.stamp = node->now();
     message.header.frame_id = "map";
-    message.pose.position.x = 4.0;
-    message.pose.position.y = 3.0;
+    message.pose.position.x = 7.634371526226799;
+    message.pose.position.y = -2.4593961214238207;
     message.pose.position.z = 0.0;
     message.pose.orientation.x = 0.0;
     message.pose.orientation.y = 0.0;
