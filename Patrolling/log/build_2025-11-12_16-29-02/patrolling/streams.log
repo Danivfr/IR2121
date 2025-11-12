@@ -1,0 +1,20 @@
+[0.026s] Invoking command in '/home/usuario/Documentos/GitHub/IR2121/Patrolling/build/patrolling': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2121/Patrolling/build/patrolling -- -j6 -l6
+[0.122s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[0.185s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[2.011s] [01m[K/home/usuario/Documentos/GitHub/IR2121/Patrolling/src/patrolling/src/publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.011s] [01m[K/home/usuario/Documentos/GitHub/IR2121/Patrolling/src/patrolling/src/publisher.cpp:11:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} is not a template
+[2.011s]    11 |     auto publisher = node->create_publisher<[01;31m[Kgeometry_msgs[m[K::msg::PoseStamped<("goal_pose", 10);
+[2.011s]       |                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[2.011s] [01m[K/home/usuario/Documentos/GitHub/IR2121/Patrolling/src/patrolling/src/publisher.cpp:11:91:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[2.011s]    11 | de->create_publisher<geometry_msgs::msg::PoseStamped<("goal_pose", [01;35m[K10[m[K);
+[2.011s]       |                                                                    [01;35m[K^~[m[K
+[2.011s] 
+[2.011s] [01m[K/home/usuario/Documentos/GitHub/IR2121/Patrolling/src/patrolling/src/publisher.cpp:11:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.011s]    11 |     auto publisher = node->[01;31m[Kcreate_publisher<geometry_msgs::msg::PoseStamped[m[K<("goal_pose", 10);
+[2.012s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.012s] [01m[K/home/usuario/Documentos/GitHub/IR2121/Patrolling/src/patrolling/src/publisher.cpp:11:28:[m[K [01;31m[Kerror: [m[Kunable to deduce ‘[01m[Kauto[m[K’ from ‘[01m[K((std::__shared_ptr_access<rclcpp::Node, __gnu_cxx::_S_atomic, false, false>*)(& node))->std::__shared_ptr_access<rclcpp::Node, __gnu_cxx::_S_atomic, false, false>::operator->()->create_publisher<<expression error> >[m[K’
+[2.012s] [01m[K/home/usuario/Documentos/GitHub/IR2121/Patrolling/src/patrolling/src/publisher.cpp:11:28:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[Kauto[m[K’
+[2.362s] gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1
+[2.363s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/publisher.dir/all] Error 2
+[2.363s] gmake: *** [Makefile:146: all] Error 2
+[2.365s] Invoked command in '/home/usuario/Documentos/GitHub/IR2121/Patrolling/build/patrolling' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2121/Patrolling/build/patrolling -- -j6 -l6

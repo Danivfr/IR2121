@@ -1,0 +1,10 @@
+/home/usuario/Documentos/GitHub/IR2121/Patrolling/build/patrolling/CMakeFiles/uninstall.dir
+/home/usuario/Documentos/GitHub/IR2121/Patrolling/build/patrolling/CMakeFiles/patrolling_uninstall.dir
+/home/usuario/Documentos/GitHub/IR2121/Patrolling/build/patrolling/CMakeFiles/publisher.dir
+/home/usuario/Documentos/GitHub/IR2121/Patrolling/build/patrolling/CMakeFiles/test.dir
+/home/usuario/Documentos/GitHub/IR2121/Patrolling/build/patrolling/CMakeFiles/edit_cache.dir
+/home/usuario/Documentos/GitHub/IR2121/Patrolling/build/patrolling/CMakeFiles/rebuild_cache.dir
+/home/usuario/Documentos/GitHub/IR2121/Patrolling/build/patrolling/CMakeFiles/list_install_components.dir
+/home/usuario/Documentos/GitHub/IR2121/Patrolling/build/patrolling/CMakeFiles/install.dir
+/home/usuario/Documentos/GitHub/IR2121/Patrolling/build/patrolling/CMakeFiles/install/local.dir
+/home/usuario/Documentos/GitHub/IR2121/Patrolling/build/patrolling/CMakeFiles/install/strip.dir

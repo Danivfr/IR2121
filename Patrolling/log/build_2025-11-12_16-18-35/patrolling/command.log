@@ -1,0 +1,2 @@
+Invoking command in '/home/usuario/Documentos/GitHub/IR2121/Patrolling/build/patrolling': /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/patrolling -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2121/Patrolling/install/patrolling
+Invoked command in '/home/usuario/Documentos/GitHub/IR2121/Patrolling/build/patrolling' returned '1': /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/patrolling -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2121/Patrolling/install/patrolling

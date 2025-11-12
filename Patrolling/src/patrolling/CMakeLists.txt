@@ -13,11 +13,11 @@ find_package(ament_cmake REQUIRED)
 
 
 find_package(rclcpp REQUIRED)
-find_package(pose_stamped REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 add_executable(publisher src/publisher.cpp)
 
-ament_target_dependencies(publisher rclcpp pose_stamped)
+ament_target_dependencies(publisher rclcpp geometry_msgs)
 
 
 install(TARGETS

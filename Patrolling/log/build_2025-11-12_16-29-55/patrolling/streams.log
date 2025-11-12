@@ -1,0 +1,8 @@
+[0.027s] Invoking command in '/home/usuario/Documentos/GitHub/IR2121/Patrolling/build/patrolling': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2121/Patrolling/build/patrolling -- -j6 -l6
+[0.150s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[0.222s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[26.845s] gmake[2]: *** Se borra el archivo 'CMakeFiles/publisher.dir/src/publisher.cpp.o'
+[26.845s] gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Interrupción
+[26.845s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/publisher.dir/all] Interrupción
+[26.845s] gmake: *** [Makefile:146: all] Interrupción
+[26.845s] Invoked command in '/home/usuario/Documentos/GitHub/IR2121/Patrolling/build/patrolling' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2121/Patrolling/build/patrolling -- -j6 -l6

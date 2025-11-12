@@ -1,0 +1,33 @@
+[0.020s] Invoking command in '/home/usuario/Documentos/GitHub/IR2121/Patrolling/build/patrolling': /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/patrolling -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2121/Patrolling/install/patrolling
+[0.387s] -- The C compiler identification is GNU 10.5.0
+[0.670s] -- The CXX compiler identification is GNU 10.5.0
+[0.698s] -- Detecting C compiler ABI info
+[1.024s] -- Detecting C compiler ABI info - done
+[1.052s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.053s] -- Detecting C compile features
+[1.053s] -- Detecting C compile features - done
+[1.069s] -- Detecting CXX compiler ABI info
+[1.347s] -- Detecting CXX compiler ABI info - done
+[1.379s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.379s] -- Detecting CXX compile features
+[1.379s] -- Detecting CXX compile features - done
+[1.412s] -- Configuring incomplete, errors occurred!
+[1.412s] See also "/home/usuario/Documentos/GitHub/IR2121/Patrolling/build/patrolling/CMakeFiles/CMakeOutput.log".
+[1.412s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[1.412s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.412s]   has asked CMake to find a package configuration file provided by
+[1.412s]   "ament_cmake", but CMake did not find one.
+[1.412s] 
+[1.412s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.412s]   any of the following names:
+[1.412s] 
+[1.412s]     ament_cmakeConfig.cmake
+[1.412s]     ament_cmake-config.cmake
+[1.413s] 
+[1.413s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.413s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.413s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.413s]   has been installed.
+[1.413s] 
+[1.413s] [0m
+[1.415s] Invoked command in '/home/usuario/Documentos/GitHub/IR2121/Patrolling/build/patrolling' returned '1': /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/patrolling -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2121/Patrolling/install/patrolling
