@@ -15,19 +15,21 @@ int main(int argc, char * argv[])
 
     while (rclcpp::ok()) {
 
-    message.header.stamp = node->now();
-    message.header.frame_id = "map";
-    message.pose.position.x = 7.634371526226799;
-    message.pose.position.y = -2.4593961214238207;
-    message.pose.position.z = 0.0;
-    message.pose.orientation.x = 0.0;
-    message.pose.orientation.y = 0.0;
-    message.pose.orientation.z = 0.0;
-    message.pose.orientation.w = 1.0;
+        //message.header.stamp = 0;
+        message.header.frame_id = "map";
 
-    publisher->publish(message);
-    rclcpp::spin_some(node);
-    loop_rate.sleep();
+        message.pose.position.x = 7.634371526226799;
+        message.pose.position.y = -2.4593961214238207;
+        message.pose.position.z = 0.0;
+
+        message.pose.orientation.x = 0.0;
+        message.pose.orientation.y = 0.0;
+        message.pose.orientation.z = 0.0;
+        message.pose.orientation.w = 1.0;
+
+        publisher->publish(message);
+        rclcpp::spin_some(node);
+        loop_rate.sleep();
     }
 
     rclcpp::shutdown();

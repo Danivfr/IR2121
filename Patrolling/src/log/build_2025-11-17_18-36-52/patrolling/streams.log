@@ -1,0 +1,26 @@
+[0.040s] Invoking command in '/home/usuario/Documentos/GitHub/IR2121/Patrolling/src/build/patrolling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/build/patrolling -- -j6 -l6
+[0.158s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[0.230s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[5.760s] [100%] [32m[1mLinking CXX executable publisher[0m
+[13.369s] [100%] Built target publisher
+[13.381s] Invoked command in '/home/usuario/Documentos/GitHub/IR2121/Patrolling/src/build/patrolling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/build/patrolling -- -j6 -l6
+[13.398s] Invoking command in '/home/usuario/Documentos/GitHub/IR2121/Patrolling/src/build/patrolling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/build/patrolling
+[13.410s] -- Install configuration: ""
+[13.557s] -- Installing: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/lib/patrolling/publisher
+[14.056s] -- Set runtime path of "/home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/lib/patrolling/publisher" to ""
+[14.056s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/ament_index/resource_index/package_run_dependencies/patrolling
+[14.057s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/ament_index/resource_index/parent_prefix_path/patrolling
+[14.057s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/patrolling/environment/ament_prefix_path.sh
+[14.057s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/patrolling/environment/ament_prefix_path.dsv
+[14.057s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/patrolling/environment/path.sh
+[14.057s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/patrolling/environment/path.dsv
+[14.057s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/patrolling/local_setup.bash
+[14.057s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/patrolling/local_setup.sh
+[14.057s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/patrolling/local_setup.zsh
+[14.057s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/patrolling/local_setup.dsv
+[14.057s] -- Installing: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/patrolling/package.dsv
+[14.060s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/ament_index/resource_index/packages/patrolling
+[14.060s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/patrolling/cmake/patrollingConfig.cmake
+[14.060s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/patrolling/cmake/patrollingConfig-version.cmake
+[14.060s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/patrolling/package.xml
+[14.063s] Invoked command in '/home/usuario/Documentos/GitHub/IR2121/Patrolling/src/build/patrolling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/build/patrolling

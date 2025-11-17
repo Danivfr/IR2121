@@ -1,0 +1,45 @@
+[0.035s] Invoking command in '/home/usuario/Documentos/GitHub/IR2121/Patrolling/src/build/patrolling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/build/patrolling -- -j6 -l6
+[0.096s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.209s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.236s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.237s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.242s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.249s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.257s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.281s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.282s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.401s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.436s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.445s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.531s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.531s] -- Configured cppcheck include dirs: 
+[0.531s] -- Configured cppcheck exclude dirs and/or files: 
+[0.531s] -- Added test 'lint_cmake' to check CMake code style
+[0.532s] -- Added test 'uncrustify' to check C / C++ code style
+[0.532s] -- Configured uncrustify additional arguments: 
+[0.532s] -- Added test 'xmllint' to check XML markup files
+[0.542s] -- Configuring done
+[0.601s] -- Generating done
+[0.629s] -- Build files have been written to: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/build/patrolling
+[0.682s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[0.735s] [100%] Built target publisher
+[0.746s] Invoked command in '/home/usuario/Documentos/GitHub/IR2121/Patrolling/src/build/patrolling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/build/patrolling -- -j6 -l6
+[0.764s] Invoking command in '/home/usuario/Documentos/GitHub/IR2121/Patrolling/src/build/patrolling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/build/patrolling
+[0.775s] -- Install configuration: ""
+[0.923s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/lib/patrolling/publisher
+[1.073s] -- Installing: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/ament_index/resource_index/package_run_dependencies/patrolling
+[1.080s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/ament_index/resource_index/parent_prefix_path/patrolling
+[1.080s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/patrolling/environment/ament_prefix_path.sh
+[1.080s] -- Installing: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/patrolling/environment/ament_prefix_path.dsv
+[1.084s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/patrolling/environment/path.sh
+[1.084s] -- Installing: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/patrolling/environment/path.dsv
+[1.087s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/patrolling/local_setup.bash
+[1.087s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/patrolling/local_setup.sh
+[1.087s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/patrolling/local_setup.zsh
+[1.087s] -- Installing: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/patrolling/local_setup.dsv
+[1.090s] -- Installing: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/patrolling/package.dsv
+[1.094s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/ament_index/resource_index/packages/patrolling
+[1.094s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/patrolling/cmake/patrollingConfig.cmake
+[1.094s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/patrolling/cmake/patrollingConfig-version.cmake
+[1.094s] -- Installing: /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/install/patrolling/share/patrolling/package.xml
+[1.100s] Invoked command in '/home/usuario/Documentos/GitHub/IR2121/Patrolling/src/build/patrolling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2121/Patrolling/src/build/patrolling
