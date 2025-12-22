@@ -1,0 +1,8 @@
+source;share/room_exercise/hook/cmake_prefix_path.ps1
+source;share/room_exercise/hook/cmake_prefix_path.dsv
+source;share/room_exercise/hook/cmake_prefix_path.sh
+source;share/room_exercise/local_setup.bash
+source;share/room_exercise/local_setup.dsv
+source;share/room_exercise/local_setup.ps1
+source;share/room_exercise/local_setup.sh
+source;share/room_exercise/local_setup.zsh

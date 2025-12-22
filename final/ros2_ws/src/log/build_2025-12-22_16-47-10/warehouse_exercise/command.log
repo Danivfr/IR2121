@@ -1,0 +1,4 @@
+Invoking command in '/home/usuario/Descargas/ros2_ws/src/build/warehouse_exercise': /usr/bin/cmake --build /home/usuario/Descargas/ros2_ws/src/build/warehouse_exercise -- -j6 -l6
+Invoked command in '/home/usuario/Descargas/ros2_ws/src/build/warehouse_exercise' returned '0': /usr/bin/cmake --build /home/usuario/Descargas/ros2_ws/src/build/warehouse_exercise -- -j6 -l6
+Invoking command in '/home/usuario/Descargas/ros2_ws/src/build/warehouse_exercise': /usr/bin/cmake --install /home/usuario/Descargas/ros2_ws/src/build/warehouse_exercise
+Invoked command in '/home/usuario/Descargas/ros2_ws/src/build/warehouse_exercise' returned '0': /usr/bin/cmake --install /home/usuario/Descargas/ros2_ws/src/build/warehouse_exercise

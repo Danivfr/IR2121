@@ -1,0 +1,9 @@
+/home/usuario/Descargas/ros2_ws/build/warehouse_exercise/CMakeFiles/uninstall.dir
+/home/usuario/Descargas/ros2_ws/build/warehouse_exercise/CMakeFiles/warehouse_exercise_uninstall.dir
+/home/usuario/Descargas/ros2_ws/build/warehouse_exercise/CMakeFiles/test.dir
+/home/usuario/Descargas/ros2_ws/build/warehouse_exercise/CMakeFiles/edit_cache.dir
+/home/usuario/Descargas/ros2_ws/build/warehouse_exercise/CMakeFiles/rebuild_cache.dir
+/home/usuario/Descargas/ros2_ws/build/warehouse_exercise/CMakeFiles/list_install_components.dir
+/home/usuario/Descargas/ros2_ws/build/warehouse_exercise/CMakeFiles/install.dir
+/home/usuario/Descargas/ros2_ws/build/warehouse_exercise/CMakeFiles/install/local.dir
+/home/usuario/Descargas/ros2_ws/build/warehouse_exercise/CMakeFiles/install/strip.dir

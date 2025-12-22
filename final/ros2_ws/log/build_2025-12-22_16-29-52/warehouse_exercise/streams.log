@@ -1,0 +1,33 @@
+[0.010s] Invoking command in '/home/usuario/Descargas/ros2_ws/build/warehouse_exercise': /usr/bin/cmake /home/usuario/Descargas/ros2_ws/src/warehouse_exercise -DCMAKE_INSTALL_PREFIX=/home/usuario/Descargas/ros2_ws/install/warehouse_exercise
+[0.104s] -- The C compiler identification is GNU 10.5.0
+[0.206s] -- The CXX compiler identification is GNU 10.5.0
+[0.219s] -- Detecting C compiler ABI info
+[0.391s] -- Detecting C compiler ABI info - done
+[0.419s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.419s] -- Detecting C compile features
+[0.419s] -- Detecting C compile features - done
+[0.429s] -- Detecting CXX compiler ABI info
+[0.609s] -- Detecting CXX compiler ABI info - done
+[0.641s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.641s] -- Detecting CXX compile features
+[0.641s] -- Detecting CXX compile features - done
+[0.665s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.665s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.665s]   has asked CMake to find a package configuration file provided by
+[0.665s]   "ament_cmake", but CMake did not find one.
+[0.665s] 
+[0.665s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.665s]   any of the following names:
+[0.665s] 
+[0.665s]     ament_cmakeConfig.cmake
+[0.665s]     ament_cmake-config.cmake
+[0.665s] 
+[0.665s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.665s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.665s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.666s]   has been installed.
+[0.666s] 
+[0.666s] [0m
+[0.666s] -- Configuring incomplete, errors occurred!
+[0.666s] See also "/home/usuario/Descargas/ros2_ws/build/warehouse_exercise/CMakeFiles/CMakeOutput.log".
+[0.668s] Invoked command in '/home/usuario/Descargas/ros2_ws/build/warehouse_exercise' returned '1': /usr/bin/cmake /home/usuario/Descargas/ros2_ws/src/warehouse_exercise -DCMAKE_INSTALL_PREFIX=/home/usuario/Descargas/ros2_ws/install/warehouse_exercise

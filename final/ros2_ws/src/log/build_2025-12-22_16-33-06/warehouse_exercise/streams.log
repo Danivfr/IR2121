@@ -1,0 +1,305 @@
+[0.019s] Invoking command in '/home/usuario/Descargas/ros2_ws/src/build/warehouse_exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/usuario/Descargas/ros2_ws/src/warehouse_exercise -DCMAKE_INSTALL_PREFIX=/home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise
+[0.111s] -- The C compiler identification is GNU 10.5.0
+[0.214s] -- The CXX compiler identification is GNU 10.5.0
+[0.228s] -- Detecting C compiler ABI info
+[0.397s] -- Detecting C compiler ABI info - done
+[0.421s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.421s] -- Detecting C compile features
+[0.422s] -- Detecting C compile features - done
+[0.431s] -- Detecting CXX compiler ABI info
+[0.609s] -- Detecting CXX compiler ABI info - done
+[0.638s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.638s] -- Detecting CXX compile features
+[0.638s] -- Detecting CXX compile features - done
+[0.649s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.768s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.867s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.913s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.918s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.926s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.936s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.950s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.988s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.991s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.084s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.116s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.166s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.182s] -- Looking for pthread.h
+[1.352s] -- Looking for pthread.h - found
+[1.361s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.528s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.538s] -- Found Threads: TRUE  
+[1.591s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.592s] -- Checking for module 'bullet>=2.82'
+[1.606s] --   Found bullet, version 3.05
+[1.733s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.785s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.810s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.837s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.851s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.861s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.869s] -- Searching for dependencies of ignition-math6
+[1.870s] -- Looking for OGRE...
+[1.871s] -- OGRE_PREFIX_WATCH changed.
+[1.876s] -- Checking for module 'OGRE'
+[1.889s] --   Found OGRE, version 1.9.0
+[1.926s] -- Found Ogre Ghadamon (1.9.0)
+[1.933s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.941s] -- Looking for OGRE_Paging...
+[1.946s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.946s] -- Looking for OGRE_Terrain...
+[1.951s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.952s] -- Looking for OGRE_Property...
+[1.957s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.957s] -- Looking for OGRE_RTShaderSystem...
+[1.962s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.962s] -- Looking for OGRE_Volume...
+[1.968s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.968s] -- Looking for OGRE_Overlay...
+[1.973s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.100s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.105s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.106s] -- Searching for dependencies of ignition-transport8
+[2.128s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.145s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.149s] -- Checking for module 'libzmq >= 4'
+[2.163s] --   Found libzmq , version 4.3.4
+[2.203s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.208s] -- Checking for module 'uuid'
+[2.222s] --   Found uuid, version 2.37.2
+[2.258s] -- Found UUID: TRUE  
+[2.263s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.263s] -- Searching for dependencies of ignition-msgs5
+[2.287s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.292s] -- Checking for module 'tinyxml2'
+[2.305s] --   Found tinyxml2, version 9.0.0
+[2.343s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.348s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.348s] -- Searching for dependencies of ignition-common3
+[2.348s] -- Looking for dlfcn.h - found
+[2.349s] -- Looking for libdl - found
+[2.351s] -- Found DL: TRUE  
+[2.364s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[2.364s] -- Searching for <ignition-common3> component [graphics]
+[2.369s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.370s] -- Searching for dependencies of ignition-common3-graphics
+[2.370s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.375s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.376s] -- Searching for dependencies of ignition-fuel_tools4
+[2.464s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.475s] -- Checking for module 'jsoncpp'
+[2.488s] --   Found jsoncpp, version 1.9.5
+[2.525s] -- Found JSONCPP: TRUE  
+[2.530s] -- Checking for module 'libzip'
+[2.544s] --   Found libzip, version 1.7.3
+[2.580s] -- Found ZIP: TRUE  
+[2.580s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.581s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.581s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.587s] -- Gazebo version: 11.10
+[2.587s] -- Checking for module 'tbb'
+[2.601s] --   Found tbb, version 2021.5.0
+[2.741s] -- Configuring done
+[2.750s] -- Generating done
+[2.804s] -- Build files have been written to: /home/usuario/Descargas/ros2_ws/src/build/warehouse_exercise
+[2.815s] Invoked command in '/home/usuario/Descargas/ros2_ws/src/build/warehouse_exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/usuario/Descargas/ros2_ws/src/warehouse_exercise -DCMAKE_INSTALL_PREFIX=/home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise
+[2.822s] Invoking command in '/home/usuario/Descargas/ros2_ws/src/build/warehouse_exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/usuario/Descargas/ros2_ws/src/build/warehouse_exercise -- -j6 -l6
+[2.922s] Invoked command in '/home/usuario/Descargas/ros2_ws/src/build/warehouse_exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/usuario/Descargas/ros2_ws/src/build/warehouse_exercise -- -j6 -l6
+[2.945s] Invoking command in '/home/usuario/Descargas/ros2_ws/src/build/warehouse_exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/usuario/Descargas/ros2_ws/src/build/warehouse_exercise
+[2.961s] -- Install configuration: ""
+[2.962s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/launch
+[2.962s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/launch/navigation2.launch.py
+[2.965s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/launch/occupancy_grid.launch.py
+[2.968s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/launch/rtabmap.launch.py
+[2.971s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/launch/no_roof_small_warehouse.launch.py
+[2.974s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/launch/turtlebot3_warehouse.launch.py
+[2.977s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/launch/small_warehouse.launch.py
+[2.980s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/launch/cartographer.launch.py
+[2.983s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/launch/slam_toolbox.launch.py
+[2.986s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models
+[2.987s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_RoofB_01
+[2.987s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_RoofB_01/meshes
+[2.987s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_collision.DAE
+[2.990s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_visual.DAE
+[3.026s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_RoofB_01/materials
+[3.026s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_RoofB_01/materials/textures
+[3.027s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_RoofB_01/materials/textures/aws_robomaker_warehouse_RoofB_01.png
+[3.030s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_RoofB_01/model.config
+[3.033s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_RoofB_01/model.sdf
+[3.036s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfE_01
+[3.036s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfE_01/meshes
+[3.036s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE
+[3.040s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE
+[3.058s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfE_01/materials
+[3.058s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfE_01/materials/.DS_Store
+[3.062s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfE_01/materials/textures
+[3.062s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_03.png
+[3.081s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_01.png
+[3.083s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_04.png
+[3.134s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_02.png
+[3.159s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfE_01/.DS_Store
+[3.162s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfE_01/model.config
+[3.165s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfE_01/model.sdf
+[3.169s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfD_01
+[3.169s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfD_01/meshes
+[3.169s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE
+[3.188s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE
+[3.192s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfD_01/materials
+[3.192s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfD_01/materials/textures
+[3.192s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_01.png
+[3.194s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_03.png
+[3.219s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_02.png
+[3.238s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_04.png
+[3.289s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfD_01/model.config
+[3.292s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfD_01/model.sdf
+[3.296s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_GroundB_01
+[3.296s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_GroundB_01/meshes
+[3.296s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE
+[3.302s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE
+[3.305s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_GroundB_01/materials
+[3.305s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_GroundB_01/materials/textures
+[3.305s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_01.png
+[4.086s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_02.png
+[4.093s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_GroundB_01/model.config
+[4.096s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_GroundB_01/model.sdf
+[4.100s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringA_01
+[4.100s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringA_01/meshes
+[4.100s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE
+[4.110s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE
+[4.114s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringA_01/materials
+[4.114s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringA_01/materials/.DS_Store
+[4.117s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures
+[4.117s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_02.png
+[4.137s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_03.png
+[4.187s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_01.png
+[4.212s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/.DS_Store
+[4.215s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringA_01/.DS_Store
+[4.219s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringA_01/model.config
+[4.222s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringA_01/model.sdf
+[4.225s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringD_01
+[4.225s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringD_01/meshes
+[4.225s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE
+[4.232s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE
+[4.235s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringD_01/materials
+[4.236s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures
+[4.236s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_02.png
+[4.255s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_01.png
+[4.279s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringD_01/model.config
+[4.283s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringD_01/model.sdf
+[4.286s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_WallB_01
+[4.286s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_WallB_01/meshes
+[4.286s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_collision.DAE
+[4.290s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_visual.DAE
+[4.294s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_WallB_01/materials
+[4.294s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_WallB_01/materials/textures
+[4.294s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_WallB_01/materials/textures/aws_robomaker_warehouse_WallB_01.png
+[4.332s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_WallB_01/model.config
+[4.335s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_WallB_01/model.sdf
+[4.338s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/.DS_Store
+[4.341s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_Lamp_01
+[4.341s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_Lamp_01/meshes
+[4.341s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_visual.DAE
+[4.348s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_collision.DAE
+[4.352s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_Lamp_01/materials
+[4.352s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_Lamp_01/materials/textures
+[4.352s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_Lamp_01/materials/textures/aws_robomaker_warehouse_Lamp_01.png
+[4.356s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_Lamp_01/model.config
+[4.358s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_Lamp_01/model.sdf
+[4.361s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringC_01
+[4.362s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringC_01/meshes
+[4.362s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE
+[4.372s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE
+[4.375s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringC_01/materials
+[4.375s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures
+[4.376s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_02.png
+[4.395s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_01.png
+[4.420s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringC_01/model.config
+[4.423s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ClutteringC_01/model.sdf
+[4.426s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_PalletJackB_01
+[4.426s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_PalletJackB_01/meshes
+[4.426s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE
+[4.444s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE
+[4.562s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_PalletJackB_01/materials
+[4.563s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_PalletJackB_01/materials/.DS_Store
+[4.566s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures
+[4.566s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_02.png
+[4.570s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_01.png
+[4.700s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_PalletJackB_01/.DS_Store
+[4.704s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_PalletJackB_01/model.config
+[4.707s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_PalletJackB_01/model.sdf
+[4.710s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_Bucket_01
+[4.710s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_Bucket_01/meshes
+[4.710s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE
+[4.715s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE
+[4.719s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_Bucket_01/materials
+[4.719s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_Bucket_01/materials/.DS_Store
+[4.723s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_Bucket_01/materials/textures
+[4.723s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_Bucket_01/materials/textures/aws_robomaker_warehouse_Bucket_01.png
+[4.750s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_Bucket_01/.DS_Store
+[4.753s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_Bucket_01/model.config
+[4.756s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_Bucket_01/model.sdf
+[4.759s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_DeskC_01
+[4.759s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_DeskC_01/meshes
+[4.759s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE
+[4.766s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE
+[4.790s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_DeskC_01/materials
+[4.790s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_DeskC_01/materials/.DS_Store
+[4.794s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_DeskC_01/materials/textures
+[4.794s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.png
+[4.813s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_01.png
+[4.961s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_02.png
+[4.986s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.psd
+[5.863s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_04.png
+[5.870s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_DeskC_01/model.config
+[5.873s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_DeskC_01/model.sdf
+[5.876s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfF_01
+[5.876s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfF_01/meshes
+[5.877s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE
+[5.882s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE
+[5.996s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfF_01/materials
+[5.997s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfF_01/materials/textures
+[5.997s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_03.png
+[6.024s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_01.png
+[6.027s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_02.png
+[6.052s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfF_01/model.config
+[6.055s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_ShelfF_01/model.sdf
+[6.058s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_TrashCanC_01
+[6.058s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_TrashCanC_01/meshes
+[6.058s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE
+[6.064s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE
+[6.089s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_TrashCanC_01/materials
+[6.089s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_TrashCanC_01/materials/textures
+[6.089s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_TrashCanC_01/materials/textures/aws_robomaker_warehouse_TrashCanC_01.png
+[6.108s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_TrashCanC_01/model.config
+[6.111s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/models/aws_robomaker_warehouse_TrashCanC_01/model.sdf
+[6.114s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/worlds
+[6.114s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/worlds/no_roof_small_warehouse
+[6.114s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/worlds/no_roof_small_warehouse/no_roof_small_warehouse.world
+[6.117s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/worlds/small_warehouse
+[6.117s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/worlds/small_warehouse/small_warehouse.world
+[6.121s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/maps
+[6.121s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/maps/.DS_Store
+[6.124s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/rviz
+[6.124s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/rviz/tb3_navigation2.rviz
+[6.129s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/param
+[6.129s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/param/burger.yaml
+[6.133s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/param/waffle_pi.yaml
+[6.137s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/param/waffle.yaml
+[6.141s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/environment/aws_robomaker_small_warehouse_world.dsv
+[6.144s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/ament_index/resource_index/package_run_dependencies/warehouse_exercise
+[6.147s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/ament_index/resource_index/parent_prefix_path/warehouse_exercise
+[6.150s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/environment/ament_prefix_path.sh
+[6.151s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/environment/ament_prefix_path.dsv
+[6.153s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/environment/path.sh
+[6.154s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/environment/path.dsv
+[6.157s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/local_setup.bash
+[6.160s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/local_setup.sh
+[6.164s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/local_setup.zsh
+[6.167s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/local_setup.dsv
+[6.170s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/package.dsv
+[6.173s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/ament_index/resource_index/packages/warehouse_exercise
+[6.174s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.177s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/cmake/warehouse_exerciseConfig.cmake
+[6.180s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/cmake/warehouse_exerciseConfig-version.cmake
+[6.183s] -- Installing: /home/usuario/Descargas/ros2_ws/src/install/warehouse_exercise/share/warehouse_exercise/package.xml
+[6.188s] Invoked command in '/home/usuario/Descargas/ros2_ws/src/build/warehouse_exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/usuario/Descargas/ros2_ws/src/build/warehouse_exercise

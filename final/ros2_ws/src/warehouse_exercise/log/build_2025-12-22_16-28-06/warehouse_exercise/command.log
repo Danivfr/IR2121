@@ -1,0 +1,2 @@
+Invoking command in '/home/usuario/Descargas/ros2_ws/src/warehouse_exercise/build/warehouse_exercise': /usr/bin/cmake /home/usuario/Descargas/ros2_ws/src/warehouse_exercise -DCMAKE_INSTALL_PREFIX=/home/usuario/Descargas/ros2_ws/src/warehouse_exercise/install/warehouse_exercise
+Invoked command in '/home/usuario/Descargas/ros2_ws/src/warehouse_exercise/build/warehouse_exercise' returned '1': /usr/bin/cmake /home/usuario/Descargas/ros2_ws/src/warehouse_exercise -DCMAKE_INSTALL_PREFIX=/home/usuario/Descargas/ros2_ws/src/warehouse_exercise/install/warehouse_exercise

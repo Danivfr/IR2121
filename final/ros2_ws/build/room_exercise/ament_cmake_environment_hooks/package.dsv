@@ -1,0 +1,4 @@
+source;share/room_exercise/local_setup.bash
+source;share/room_exercise/local_setup.dsv
+source;share/room_exercise/local_setup.sh
+source;share/room_exercise/local_setup.zsh
